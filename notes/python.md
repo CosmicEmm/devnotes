@@ -23,12 +23,15 @@ It prints the data within the parenthesis on the terminal window.
 ```py
 print("Hello World")
 ```
+**Terminal:** Hello World
 ## Variables
 Variables are used to temporarily store data  in a computer's memory.
 ```py
 age = 20
 print(age)
 ```
-age is the variable and 20 is the value that's assigned to it.
+**Terminal:** 20
+
+Here age is the variable and 20 is the value that's assigned to it.
 
 
