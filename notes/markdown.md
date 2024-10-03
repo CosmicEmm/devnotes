@@ -13,7 +13,7 @@ There are six levels of headings available.
 ### Heading 3
 #### Heading 4
 ##### Heading 5
-###### Heading6
+###### Heading 6
 ```
 
 ### Bold
@@ -27,6 +27,7 @@ There are six levels of headings available.
 ```
 *Rome* or _Milan_
 ### Checklist
+x within the square brackets indicates a ticked checklist.
 ```md
 - [ ] Read Book
 - [x] Exercise
@@ -36,7 +37,6 @@ There are six levels of headings available.
 - [x] Exercise
 - [ ] Journal
 
-x within the square brackets indicates a ticked checklist.
 ### List
 ```md
 * Apples
