@@ -38,6 +38,7 @@ x within the square brackets indicates a ticked checklist.
 - [ ] Journal
 
 ### List
+#### Unordered List
 ```md
 * Apples
 * Oranges
@@ -48,6 +49,19 @@ x within the square brackets indicates a ticked checklist.
 * Oranges
 * Grapes
 * Strawberries
+#### Ordered List
+```
+1. A Game of Thrones
+2. A Clash of Kings
+3. A Storm of Swords
+4. A Feast for Crows
+5. A Dance with Dragons
+```
+1. A Game of Thrones
+2. A Clash of Kings
+3. A Storm of Swords
+4. A Feast for Crows
+5. A Dance with Dragons
 ### Code Block
 Place three backticks ``` on a line above and below the code block.
 ```md
@@ -68,6 +82,18 @@ Code Block
 |Scholes|Man United|
 |Pirlo|AC Milan|
 |Xavi|FC Barcelona|
+### Convert Text to Link
+```
+[Follow me on Goodreads](https://www.goodreads.com/muhammadmalik
+)
+```
+[Follow me on Goodreads](https://www.goodreads.com/muhammadmalik
+)
+### Block Quote
+```
+> Those who don't study history are doomed to repeat it. - Lex Fridman
+```
+> Those who don't study history are doomed to repeat it. - Lex Fridman
 
 
 
