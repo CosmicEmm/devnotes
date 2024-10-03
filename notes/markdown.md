@@ -49,7 +49,7 @@ x within the square brackets indicates a ticked checklist.
 * Grapes
 * Strawberries
 ### Code Block
-Place 3 backticks ``` on a line above and below the code block.
+Place three backticks ``` on a line above and below the code block.
 ```md
 Code Block
 ```
