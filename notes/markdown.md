@@ -84,11 +84,9 @@ Code Block
 |Xavi|FC Barcelona|
 ### Convert Text to Link
 ```
-[Follow me on Goodreads](https://www.goodreads.com/muhammadmalik
-)
+[Follow me on X](https://x.com/Philomath4Life)
 ```
-[Follow me on Goodreads](https://www.goodreads.com/muhammadmalik
-)
+[Follow me on X](https://x.com/Philomath4Life)
 ### Block Quote
 ```
 > Those who don't study history are doomed to repeat it. - Lex Fridman
