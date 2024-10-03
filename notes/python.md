@@ -1,6 +1,6 @@
 # Python
 ## Introduction
-It is a multi-purpose programming language and is very helpful is automating repetitive tasks. A code editor (IDE) is needed to run Python code and PyCharm is one the best ones available.
+It is a multi-purpose programming language and is very helpful is automating repetitive tasks. A code editor (IDE) is needed to run Python code and PyCharm is one of the best ones available.
 ## Applications of Python
 * Data Science
 * Machine Learning
@@ -12,7 +12,7 @@ It is a multi-purpose programming language and is very helpful is automating rep
 * Dropbox
 * Pinterest
 ## Terminal Window
-It shows the output of the Python program when we run it.
+It displays the output of the Python program when we run it.
 ## Python Data Types
 ### Strings
 * They represent a sequence of characters or textual data.
