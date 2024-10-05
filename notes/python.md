@@ -50,7 +50,34 @@ print(age)
 > **Terminal:**  
 Enter your birth year: *1996*  
 28
+### Float Function
+Converts the value to a floating point number. In programming languages, it's the number with the decimal point.
+### Bool Function
+Converts the value to a boolean (True or False)
+### Str Function
+Converts the value to a string.
+### <mark>Exercise</mark>
+Show the following on the Terminal:  
+First: 10.1  
+Second: 20  
+SUM: 30.1
 
+#### Solution
+Method 1:
+```py
+first = input("First: ")
+second = input("Second: ")
+sum = float(first) + float(second)
+print("SUM: " + str(sum))
+```
+Method 2:  
+Pass the value from the input function through the float function before storing it in a variable.
+```py
+first = float(input("First: "))
+second = float(input("Second: "))
+sum = first + second
+print("SUM: " + str(sum))
+```
 ## Inbuilt Python Functions
 ### Print
 It prints the data within the parenthesis on the terminal window.
