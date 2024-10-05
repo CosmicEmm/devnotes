@@ -19,6 +19,12 @@ It displays the output of the Python program when we run it.
 ### String
 * It represents a sequence of characters or textual data.
 * It is always enclosed in single quotes or double quotes.
+#### String Contatenation
+Combine one string with another string.
+```py
+print("Hello " + "Friend")
+```
+> **Terminal:** Hello Friend
 ### Boolean
 * It can be True or False.
 ## Inbuilt Python Functions
@@ -28,6 +34,21 @@ It prints the data within the parenthesis on the terminal window.
 print("Hello World")
 ```
 > **Terminal:** Hello World
+### Input
+Reads a value from the terminal window.
+```py
+input("What is your name? ")
+```
+> **Terminal:** What is your name? *John*
+
+After pressing enter, the input function will return the value we entered in the terminal. We can store that value in a variable.
+```py
+name = input("What is your name? ")
+print("Hello " + name)
+```
+> **Terminal:**  
+What is your name? *John*  
+Hello John
 ## Variables
 Variables are used to temporarily store data  in a computer's memory.
 ```py
