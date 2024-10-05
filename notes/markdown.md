@@ -108,17 +108,17 @@ Substituting * with - or + will give the same result. To nest a list within a li
 * Strawberries
 #### Ordered List
 ```
-1. A Game of Thrones
-2. A Clash of Kings
-3. A Storm of Swords
-4. A Feast for Crows
-5. A Dance with Dragons
+1. Game of Thrones
+2. Clash of Kings
+3. Storm of Swords
+4. Feast for Crows
+5. Dance with Dragons
 ```
-1. A Game of Thrones
-2. A Clash of Kings
-3. A Storm of Swords
-4. A Feast for Crows
-5. A Dance with Dragons
+1. Game of Thrones
+2. Clash of Kings
+3. Storm of Swords
+4. Feast for Crows
+5. Dance with Dragons
 ### Code
 #### Inline Code
 Enclose in single backticks. The code will be displayed in monospace font.
