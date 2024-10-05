@@ -163,9 +163,9 @@ If the display text and link are the same, a shortcut is to use <>
 <www.reddit.com>
 ### Block Quote
 ```md
-> Those who don't study history are doomed to repeat it. - Lex Fridman
+>Those who don't study history are doomed to repeat it. - Lex Fridman
 ```
-> Those who don't study history are doomed to repeat it. - Lex Fridman
+>Those who don't study history are doomed to repeat it. - Lex Fridman
 
 
 
