@@ -53,7 +53,7 @@ Enter your birth year: *1996*
 ### Float Function
 Converts the value to a floating point number. In programming languages, it's the number with the decimal point.
 ### Bool Function
-Converts the value to a boolean (True or False)
+Converts the value to a boolean (True or False).
 ### Str Function
 Converts the value to a string.
 ### Exercise
