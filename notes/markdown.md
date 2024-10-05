@@ -163,9 +163,9 @@ If the display text and link are the same, a shortcut is to use <>
 <www.reddit.com>
 ### Render an Image
 ```md
-![Book](https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png)
+![Ball](https://upload.wikimedia.org/wikipedia/commons/d/d5/Japan_small_icon.png)
 ```
-![Book](https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png)
+![Ball](https://upload.wikimedia.org/wikipedia/commons/d/d5/Japan_small_icon.png)
 ### Block Quote
 ```md
 >Those who don't study history are doomed to repeat it. - Lex Fridman
