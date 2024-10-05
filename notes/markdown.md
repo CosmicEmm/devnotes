@@ -120,7 +120,7 @@ Substituting * with - or + will give the same result. To nest a list within a li
 4. A Feast for Crows
 5. A Dance with Dragons
 ### Code
-#### Incline Code
+#### Inline Code
 Enclose in single backticks. The code will be displayed in monospace font.
 ```md
 This is `let c = 10`
@@ -141,7 +141,7 @@ let y = 8
 |Scholes|Man United|
 |Pirlo|AC Milan|
 ```
-* This divider separates the header from the rest and must be atleast three dashes.
+* The divider separates the header from the rest and must be atleast three dashes.
 
 * The bars don't have to line up although you can do that for better readibility.
 
