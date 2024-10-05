@@ -163,9 +163,9 @@ If the display text and link are the same, a shortcut is to use <>
 <www.reddit.com>
 ### Render an Image
 ```md
-![Ball](https://upload.wikimedia.org/wikipedia/commons/d/d5/Japan_small_icon.png)
+![Coding](https://cdn-icons-png.flaticon.com/256/10817/10817310.png)
 ```
-![Ball](https://upload.wikimedia.org/wikipedia/commons/d/d5/Japan_small_icon.png)
+![Coding](https://cdn-icons-png.flaticon.com/256/10817/10817310.png)
 ### Block Quote
 ```md
 >Those who don't study history are doomed to repeat it. - Lex Fridman
