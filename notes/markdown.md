@@ -48,6 +48,36 @@ HTML Alternative:
 <mark>Deep Work</mark>
 ```
 <mark>Deep Work</mark>
+### Superscript and Subscript
+```md
+x^2^
+H~2~O
+```
+x^2^
+
+H~2~0
+
+GitHub's markdown (GFN) doesn't support superscript and subscript.
+
+HTML Alternative:
+```html
+x<sup>2</sup>
+H<sub>2</sub>O
+```
+Superscript = x<sup>2</sup>
+
+Subscript = H<sub>2</sub>O
+### Emojis
+```md
+:smile:
+```
+GitHub doesn't support this markdown syntax.
+
+Alternative:
+
+😊
+
+Copy and Paste the actual emoji in your GitHub markdown file.
 ### Checklist
 x within the square brackets indicates a ticked checklist.
 ```md
@@ -84,10 +114,19 @@ x within the square brackets indicates a ticked checklist.
 3. A Storm of Swords
 4. A Feast for Crows
 5. A Dance with Dragons
-### Code Block
-Place three backticks ``` on a line above and below the code block.
+### Code
+#### Incline Code
+Enclose in single backticks. The code will be displayed in monospace font.
 ```md
-Code Block
+This is `let c = 10`
+```
+This is `let c = 10`
+#### Code Block
+* Place three backticks ``` on a line above and below the code block.
+* You can indicate the programming language after the opening backticks (e.g. js, py, md, html, etc.). That will render out the correctly formatted and highlighted version of the code.
+```md
+const a = 10
+let y = 8
 ```
 ### Table
 ```md
@@ -105,15 +144,29 @@ Code Block
 |Pirlo|AC Milan|
 |Xavi|FC Barcelona|
 ### Convert Text to Link
+#### Relative Link
+Link directly between different documentation files.
+```md
+[Dev Logs](/README.md)
+```
+[Dev Logs](/README.md)
+#### External Link
 ```
 [Follow me on X](https://x.com/Philomath4Life)
 ```
 [Follow me on X](https://x.com/Philomath4Life)
+
+If the display text and link are the same, a shortcut is to use <>
+```md
+<www.reddit.com>
+```
+<www.reddit.com>
 ### Block Quote
-```
+```md
 > Those who don't study history are doomed to repeat it. - Lex Fridman
 ```
 > Those who don't study history are doomed to repeat it. - Lex Fridman
+
 
 
 
