@@ -25,8 +25,32 @@ Combine one string with another string.
 print("Hello " + "Friend")
 ```
 > **Terminal:** Hello Friend
+### Number
+* **Integer:** represents a whole number
+* **Float:** represents a decimal number
 ### Boolean
 * It can be True or False.
+## Type Conversion
+Converts the value of a variable from one type to another.
+```py
+birth_year = input("Enter your birth year: ")
+age = 2024 - birth_year
+print(age)
+```
+> **Terminal:** TypeError: 'int' and 'str'
+
+The error occurs because the input function will always return a string even if we enter a number in the terminal and Python can't subtract a string from an integer. You have to first convert the string to an integer to do that.
+### Int Function
+Converts the value to an integer.
+```py
+birth_year = input("Enter your birth year: ")
+age = 2024 - int(birth_year)
+print(age)
+```
+> **Terminal:**  
+Enter your birth year: *1996*  
+28
+
 ## Inbuilt Python Functions
 ### Print
 It prints the data within the parenthesis on the terminal window.
