@@ -151,45 +151,18 @@ let y = 8
 |Scholes|Man United|
 |Pirlo|AC Milan|
 #### Changing Text Alignment
-##### Right-align
 ```md
-|Player|Team|
-|---:|---:|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
+|Right|Center|Left|
+|----:|:----:|:----|
+|Steve Jobs|Apple|US|
+|Bill Gates|Microsoft|US|
+|Jack Ma|Alibaba|China|
 ```
-|Player|Team|
-|---:|---:|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
-##### Left-align
-```md
-|Player|Team|
-|:---|:---|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
-```
-|Player|Team|
-|:---|:---|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
-##### Center-align
-```md
-|Player|Team|
-|:---:|:---:|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
-```
-|Player|Team|
-|:---:|:---:|
-|Kroos|Real Madrid|
-|Scholes|Man United|
-|Pirlo|AC Milan|
+|Right|Center|Left|
+|----:|:----:|:----|
+|Steve Jobs|Apple|US|
+|Bill Gates|Microsoft|US|
+|Jack Ma|Alibaba|China|
 ### Convert Text to Link
 #### Relative Link
 Link directly between different documentation files.
