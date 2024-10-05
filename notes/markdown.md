@@ -1,6 +1,7 @@
 # Markdown
 * Markdown is a markup language that is used to produce beautifully formatted text documents.
 * Markdown also works on Discord and Reddit.
+* There are many flavors of markdown. The flavor of markdown specifically for GitHub is called GFN.
 * A markdown file has the .md extension.
 * One of the most common applications of markdown is a **README.md** file.
 * To start a new paragraph, separate it from the previous one by one empty line.
@@ -26,6 +27,27 @@ There are six levels of headings available.
 *Rome* or _Milan_
 ```
 *Rome* or _Milan_
+### Bold and Italics
+```md
+***Chocolate*** or ___Vanilla___
+```
+***Chocolate*** or ___Vanilla___
+### Strikethrough
+```md
+~~Tesla~~
+```
+~~Tesla~~
+### Highlight
+```md
+==Deep Work==
+```
+==Deep Work== (not supported by GitHub)
+
+Alternative:
+```html
+<mark>Deep Work</mark>
+```
+<mark>Deep Work</mark>
 ### Checklist
 x within the square brackets indicates a ticked checklist.
 ```md
