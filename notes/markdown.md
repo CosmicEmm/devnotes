@@ -212,6 +212,7 @@ You can even create nested block quotes.
 ```md
 Two spaces  at end of line will make a line break
 ```
-Two spaces  at end of line will make a line break
+Two spaces  
+at end of line will make a line break
 
 
