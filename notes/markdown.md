@@ -43,7 +43,7 @@ There are six levels of headings available.
 ```
 ==Deep Work== (not supported by GitHub)
 
-Alternative:
+HTML Alternative:
 ```html
 <mark>Deep Work</mark>
 ```
