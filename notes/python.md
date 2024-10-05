@@ -56,13 +56,13 @@ Converts the value to a floating point number. In programming languages, it's th
 Converts the value to a boolean (True or False)
 ### Str Function
 Converts the value to a string.
-### <mark>Exercise</mark>
+### Exercise
 Show the following on the Terminal:  
-First: 10.1  
+>First: 10.1  
 Second: 20  
 SUM: 30.1
 
-#### Solution
+### Solution
 Method 1:
 ```py
 first = input("First: ")
@@ -127,7 +127,7 @@ We can also assign a string value or a boolean to a variable.
 first_name = "Levi"
 is_online = True
 ```
-## Exercise
+### Exercise
 We check in a patient named John Smith. He's 20 years old. He's a new patient.
 ### Solution
 ```py
