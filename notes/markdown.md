@@ -93,11 +93,16 @@ x within the square brackets indicates a ticked checklist.
 #### Unordered List
 ```md
 * Apples
+    * Golden Apples
+    * Green Apples
 * Oranges
 * Grapes
 * Strawberries
 ```
+Substituting * with - or + will give the same result. To nest a list within a list, press the Tab key once or the Space key 4 times.
 * Apples
+    * Golden Apples
+    * Green Apples
 * Oranges
 * Grapes
 * Strawberries
@@ -135,14 +140,56 @@ let y = 8
 |Kroos|Real Madrid|
 |Scholes|Man United|
 |Pirlo|AC Milan|
-|Xavi|FC Barcelona|
 ```
+* This divider separates the header from the rest and must be atleast three dashes.
+
+* The bars don't have to line up although you can do that for better readibility.
+
 |Player|Team|
 |---|---|
 |Kroos|Real Madrid|
 |Scholes|Man United|
 |Pirlo|AC Milan|
-|Xavi|FC Barcelona|
+#### Changing Text Alignment
+##### Right-align
+```md
+|Player|Team|
+|---:|---:|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
+```
+|Player|Team|
+|---:|---:|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
+##### Left-align
+```md
+|Player|Team|
+|:---|:---|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
+```
+|Player|Team|
+|:---|:---|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
+##### Center-align
+```md
+|Player|Team|
+|:---:|:---:|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
+```
+|Player|Team|
+|:---:|:---:|
+|Kroos|Real Madrid|
+|Scholes|Man United|
+|Pirlo|AC Milan|
 ### Convert Text to Link
 #### Relative Link
 Link directly between different documentation files.
@@ -172,7 +219,22 @@ If the display text and link are the same, a shortcut is to use <>
 ```
 >Those who don't study history are doomed to repeat it. - Lex Fridman
 
-
+You can even create nested block quotes.
+```md
+>Three Fs of Business:
+>>* Freedom
+>>* Fulfillment
+>>* Finance
+```
+>Three Fs of Business:
+>>* Freedom
+>>* Fulfillment
+>>* Finance
+### Horizontal Ruler
+```md
+*** or ___ or ---
+```
+---
 
 
 
