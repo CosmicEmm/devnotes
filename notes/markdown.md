@@ -161,6 +161,11 @@ If the display text and link are the same, a shortcut is to use <>
 <www.reddit.com>
 ```
 <www.reddit.com>
+### Render an Image
+```md
+![Book](https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png)
+```
+![Book](https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png)
 ### Block Quote
 ```md
 >Those who don't study history are doomed to repeat it. - Lex Fridman
