@@ -152,6 +152,38 @@ print(course.upper())
 ```
 > **Terminal:** PYTHON FOR BEGINNERS
 
+Since **strings are immutable**, methods don't change the original string. Instead a new string is returned each time a method is applied.
+#### Lower Method
+Converts string to lowercase.
+```py
+course = "Python for Beginners"
+print(course.lower())
+```
+> **Terminal:** python for beginners
+
+#### Find Method
+* Finds whether or not the string contains a particular character or sequence of characters.
+* Returns the index of the first occurence.
+* In Python, the index of the first character in a string is 0.
+* The Find Method is case-sensitive.
+```py
+course = "Python for Beginners"
+print(course.find("y"))
+```
+> **Terminal:** 1
+
+#### Replace Method
+Used to replace characters within a string.
+```py
+course = "Python for Beginners"
+print(course.replace("for", "4"))
+```
+> **Terminal:** Python 4 Beginners
+
+
+
+
+
 
 
 
