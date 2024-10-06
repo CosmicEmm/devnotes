@@ -143,8 +143,7 @@ When a function is part of an object, it's called a method.
 ```py
 course = "Python for Beginners"
 ```
-where:  
-course is the name of the variable and "Python for Beginners" is a string object.
+where course is the variable and "Python for Beginners" is a string object.
 #### Upper Method
 Converts string to uppercase.
 ```py
