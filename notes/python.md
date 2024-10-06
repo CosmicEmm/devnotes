@@ -137,6 +137,25 @@ status = "new"
 print(patient_name, age, status)
 ```
 > **Terminal:** John Smith, 20, new
+## Methods
+When a function is part of an object, it's called a method.
+### String Methods
+```py
+course = "Python for Beginners"
+```
+where:  
+course is the name of the variable and "Python for Beginners" is a string object.
+#### Upper Method
+Converts string to uppercase.
+```py
+course = "Python for Beginners"
+print(course.upper())
+```
+> **Terminal:** PYTHON FOR BEGINNERS
+
+
+
+
 
 
 
