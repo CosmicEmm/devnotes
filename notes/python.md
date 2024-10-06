@@ -162,7 +162,7 @@ print(course.lower())
 > **Terminal:** python for beginners
 
 #### Find Method
-* Finds a particular character or sequence of characters.
+* Finds a particular character or sequence of characters within a string.
 * Returns the index of the first occurence.
 * In Python, the index of the first character in a string is 0.
 * The Find Method is case-sensitive.
