@@ -173,7 +173,7 @@ print(course.find("y"))
 > **Terminal:** 1
 
 #### Replace Method
-Used to replace characters within a string.
+Replace character(s) within a string.
 ```py
 course = "Python for Beginners"
 print(course.replace("for", "4"))
