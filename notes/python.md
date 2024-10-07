@@ -219,7 +219,7 @@ print(10 ** 3) #represents 10 raised to the power 3
 ```
 > **Terminal:** 1000
 ### Augmented Assignment Operator
-The assignment operator ( = ) is augmented/enhanced.
+An operator in which the assignment operator ( = ) is augmented/enhanced.
 #### Example
 x = 10  
 We want to increment the value of x by 3.
@@ -234,7 +234,7 @@ x = 10
 x += 3 #achieves the same effect as the expression above
 ```
 * += is the Augmented Assignment Operator in which the assignment operator ( = ) is augmented by +
-* We can also augment ( = ) with other symbols as per our needs.
+* We can also augment = with other symbols as per our needs.
 ### Operator Precedence
 * Determines the order in which arithmetic operators are applied.
 * Python, like maths, follows the rule of DMAS.
