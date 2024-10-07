@@ -190,7 +190,7 @@ print("Python" in course)
 ### Arithmetic Operators
 ### Addition ( + )
 ```py
-print(10+3)
+print(10 + 3)
 ```
 > **Terminal:** 13
 ### Subtraction ( - )
@@ -201,12 +201,26 @@ There are two types of division in Python.
 * Single Slash ( / ) returns a float.
 * Double Slash ( // ) returns an integer.
 ```py
-print("Float: " + str(10/3))
-print("Integer: " + str(10//3))
+print("Float: " + str(10 / 3))
+print("Integer: " + str(10 // 3))
 ```
 > **Terminal:**  
 Float: 3.33333333333  
 Integer: 3
+### Modulus ( % )
+Returns the remainder of the division.
+```py
+print(10 % 3)
+```
+> **Terminal:** 1
+### Exponent ( ** )
+```py
+print(10 ** 3) #represents 10 raised to the power 3
+```
+> **Terminal:** 1000
+
+
+
 
 
 
