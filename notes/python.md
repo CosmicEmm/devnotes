@@ -188,14 +188,14 @@ print("Python" in course)
 ```
 > **Terminal:** True
 ### Arithmetic Operators
-### Addition ( + )
+#### Addition ( + )
 ```py
 print(10 + 3)
 ```
 > **Terminal:** 13
-### Subtraction ( - )
-### Multiplication ( * )
-### Division
+#### Subtraction ( - )
+#### Multiplication ( * )
+#### Division
 There are two types of division in Python.
 
 * Single Slash ( / ) returns a float.
@@ -207,17 +207,57 @@ print("Integer: " + str(10 // 3))
 > **Terminal:**  
 Float: 3.33333333333  
 Integer: 3
-### Modulus ( % )
+#### Modulus ( % )
 Returns the remainder of the division.
 ```py
 print(10 % 3)
 ```
 > **Terminal:** 1
-### Exponent ( ** )
+#### Exponent ( ** )
 ```py
 print(10 ** 3) #represents 10 raised to the power 3
 ```
 > **Terminal:** 1000
+### Augmented Assignment Operator
+The assignment operator ( = ) is augmented/enhanced.
+#### Example
+x = 10  
+We want to increment the value of x by 3.
+#### Method 1:
+```py
+x = 10
+x = x + 3 #It will add 3 to 10 and store the new value as x
+```
+Method 2: 
+```py
+x = 10
+x += 3 #achieves the same effect as the expression above
+```
+* += is the Augmented Assignment Operator in which the assignment operator ( = ) is augmented by +
+* We can also augment ( = ) with other symbols as per our needs.
+### Operator Precedence
+* Determines the order in which arithmetic operators are applied.
+* Python, like maths, follows the rule of DMAS.
+```py
+x = 10 + 3 * 2
+print(x)
+```
+> **Terminal:** 16
+
+We can still dictate the order using parenthesis.
+```py
+x = (10 + 3) * 2
+print(x)
+```
+> **Terminal:** 26
+
+
+
+
+
+
+
+
 
 
 
