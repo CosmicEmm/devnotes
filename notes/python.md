@@ -179,16 +179,34 @@ course = "Python for Beginners"
 print(course.replace("for", "4"))
 ```
 > **Terminal:** Python 4 Beginners
+## Operators
+### in Operator
+Checks whether certain character(s) occur within a string and returns a boolean value.
+```py
+course = "Python for Beginners"
+print("Python" in course)
+```
+> **Terminal:** True
+### Arithmetic Operators
+### Addition ( + )
+```py
+print(10+3)
+```
+> **Terminal:** 13
+### Subtraction ( - )
+### Multiplication ( * )
+### Division
+There are two types of division in Python.
 
-
-
-
-
-
-
-
-
-
+* Single Slash ( / ) returns a float.
+* Double Slash ( // ) returns an integer.
+```py
+print("Float: " + str(10/3))
+print("Integer: " + str(10//3))
+```
+> **Terminal:**  
+Float: 3.33333333333  
+Integer: 3
 
 
 
