@@ -250,6 +250,34 @@ x = (10 + 3) * 2
 print(x)
 ```
 > **Terminal:** 26
+### Comparison Operators
+They are used to compare values.
+```py
+x = 3 > 2
+print(x)
+```
+> **Terminal:** True (3 > 2 is a boolean expression bcz it produces a boolean value)
+#### Types of Comparison Operators
+* Greater than (>)
+* Less than (<)
+* Greater than or equal to (>=)
+* Less than or equal to (<=)
+* Equal to (==)
+* Not Equal to (!=)
+```py
+x = 3 == 2
+print(x)
+```
+> **Terminal:** False
+
+Don't confuse Equality Operator (==) with Assignment Operator (=).
+```py
+x = 3 != 2
+print(x)
+```
+> **Terminal:** True
+
+
 
 
 
