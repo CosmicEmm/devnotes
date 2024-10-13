@@ -276,7 +276,34 @@ x = 3 != 2
 print(x)
 ```
 > **Terminal:** True
-
+### Logical Operators
+They are used to build complex rules and conditions.
+#### AND Operator
+```py
+price = 25
+#we want to check if the price is between 10 and 30
+print(price > 10 and price < 30)
+#we can simplify the chained expression as follows:
+print(10 < price < 30)
+```
+When both boolean expressions are true, the result of the entire expression will be true.
+> **Terminal:**  
+True  
+True
+#### OR Operator
+If atleast one of the boolean expressions is true, then the result of the entire expression will be true.
+```py
+price = 5
+print(price > 10 or price < 30)
+```
+> **Terminal:** True (because 5 is less than 30)
+#### NOT Operator
+Inverses any value you give it.
+```py
+price = 5
+print(not price > 10)
+```
+> **Terminal:** True
 
 
 
