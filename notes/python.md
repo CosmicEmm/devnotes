@@ -304,6 +304,28 @@ price = 5
 print(not price > 10)
 ```
 > **Terminal:** True
+## If Statement
+* Used to make decisions in programs.
+* Print messages on the terminal window depending on the value of the variable.
+```py
+temperature = 35
+```
+We want to print a message on the terminal if the temperature rises above 30.
+```py
+temperature = 35
+if temperature > 30: #the block of code will be executed if the condition is true
+    print("It's a hot day.")
+    print("Drink plenty of water.")
+```
+> **Terminal:**  
+It's a hot day.  
+Drink plenty of water.
+
+* In C-based programming languages (C++, C-sharp, Java, JavaScript), we present a block of code with curly brackets.
+* In Python, we use indentation instead of curly brackets to present a block of code.
+
+
+
 
 
 
