@@ -343,7 +343,19 @@ It's a nice day.
 #### Comments
 Anything after # is treated as an comment and Python won't execute it.
 ### Exercise
-
+**Program a weight converter**  
+Weight: 170  
+(K)g or (L)bs: l or L  
+Weight in kg: 76.5
+### Solution
+```py
+weight = float(input("Weight: "))
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K": #.upper() will return the value of the unit variable as uppercase
+    print("Weight in lbs: " + str(weight / 0.45))
+else:
+    print("Weight in kg: " + str(weight * 0.45))
+```
 
 
 
