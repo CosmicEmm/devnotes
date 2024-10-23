@@ -323,6 +323,26 @@ Drink plenty of water.
 
 * In C-based programming languages (C++, C-sharp, Java, JavaScript), we present a block of code with curly brackets.
 * In Python, we use indentation instead of curly brackets to present a block of code.
+### Adding more conditions
+You can add as many conditions as you like.
+```py
+temperature = 25
+if temperature > 30: 
+    print("It's a hot day.")
+    print("Drink plenty of water.")
+elif temperature > 20:
+    print("It's a nice day.")
+elif temperature > 10:
+    print("It's a bit cold.")
+else: #this block of code will get executed if none of the above conditions are true
+    print("It's cold.")
+```
+> **Terminal:**  
+It's a nice day.
+
+#### Comments
+Anything after # is treated as an comment and Python won't execute it.
+### Exercise
 
 
 
