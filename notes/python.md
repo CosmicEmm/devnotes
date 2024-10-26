@@ -356,6 +356,41 @@ if unit.upper() == "K": #.upper() will return the value of the unit variable as 
 else:
     print("Weight in kg: " + str(weight * 0.45))
 ```
+## Loops
+### While Loops
+Used to repeat a block of code multiple times. The while loop will keep executing the block of code until the while condition is no longer true.
+```py
+i = 1 # i is the loop variable
+while i <= 5:
+    print(i)
+    i = i + 1
+```
+> **Terminal:**  
+1  
+2  
+3  
+4  
+5
+
+In Python, we can multiply a number with a string and it will repeat that string based on the value of the number.
+```py
+i = 1
+while i <= 10:
+    print(i * "P")
+    i += 1
+```
+> **Terminal:**  
+P  
+PP  
+PPP  
+PPPP  
+PPPPP  
+PPPPPP  
+PPPPPPP  
+PPPPPPPP  
+PPPPPPPPP  
+PPPPPPPPPP  
+
 
 
 
