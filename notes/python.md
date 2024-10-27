@@ -15,7 +15,7 @@
 * Pinterest
 ## Terminal Window
 It displays the output of the Python program when we run it.
-## Python Data Types
+## Python Data Types (Basic/Primitive)
 ### String
 * It represents a sequence of characters or textual data.
 * It is always enclosed in single quotes or double quotes.
@@ -30,6 +30,51 @@ print("Hello " + "Friend")
 * **Float:** represents a decimal number
 ### Boolean
 * It can be True or False.
+## Python Data Types (Complex)
+Useful in building real applications.
+### Lists
+- Used to represent a list of objects.
+- Defined by square brackets [ ]
+- Individual objects within a list are separated by commas.
+```py
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+print(names)
+```
+> **Terminal:** ['John', 'Bob', 'Mosh', 'Sam', 'Mary']
+
+We can also retrieve individual objects from the list by calling their index within square brackets.
+```py
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+print(names[0])
+```
+> **Terminal:** John
+
+In Python, we can also call negative indexes, a feature not available in other programming languages.
+```py
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+print(names[-1]) # -1 refers to the last object in the list
+```
+> **Terminal:** Mary
+
+We can also change an object in the list at a particular index.
+```py
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+# we want to change the spelling from John to Jon
+names[0] = "Jon"
+print(names)
+```
+> **Terminal:** ['Jon', 'Bob', 'Mosh', 'Sam', 'Mary']
+
+We can also print a range of values from the list.
+```py
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+# we want to print John, Bob and Mosh
+print(names[0:3])
+# where:
+# 0 is the starting index
+# 3 is the ending index which should be +1 to the index of the object you want to print
+```
+> **Terminal:** ['John', 'Bob', 'Mosh']
 ## Type Conversion
 Converts the value of a variable from one type to another.
 ```py
