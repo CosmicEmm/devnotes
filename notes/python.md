@@ -145,6 +145,20 @@ print("Hello " + name)
 > **Terminal:**  
 What is your name? *John*  
 Hello John
+### Len
+Returns the numbers of characters in a string.
+```py
+language = "Python"
+print(len(language))
+```
+> **Terminal:** 6
+
+Returns the number of items in a list.
+```py
+numbers = [1, 2, 3, 4, 5]
+print(len(numbers))
+```
+> **Terminal:** 5
 ## Variables
 Variables are used to temporarily store data  in a computer's memory.
 ```py
@@ -183,7 +197,8 @@ print(patient_name, age, status)
 ```
 > **Terminal:** John Smith, 20, new
 ## Methods
-When a function is part of an object, it's called a method.
+- Objects in programming are like objects in the real world. They have certain capabilities.
+- When a function is part of an object, it's called a method.
 ### String Methods
 ```py
 course = "Python for Beginners"
@@ -224,6 +239,50 @@ course = "Python for Beginners"
 print(course.replace("for", "4"))
 ```
 > **Terminal:** Python 4 Beginners
+
+### List Methods
+```py
+numbers = [1, 2, 3, 4, 5]
+```
+Lists are also objects, so they have certain methods available.
+#### Append Method
+Adds a new value at the end of the list.
+```py
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+print(numbers)
+```
+> **Terminal:** [1, 2, 3, 4, 5, 6]
+
+#### Insert Method
+Inserts the specified value at the specified position.
+```py
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(0, -1)
+# where:
+# 0 is the index of the specified position
+# -1 is the specified value
+print(numbers)
+```
+> **Terminal:** [-1, 1, 2, 3, 4, 5]
+
+#### Remove Method
+Removes the first occurrence of the element with the specified value.
+```py
+numbers = [1, 2, 3, 4, 3, 5]
+numbers.remove(3)
+print(numbers)
+```
+> **Terminal:** [1, 2, 4, 3, 5]
+
+#### Clear Method
+Clears all values in a list.
+```py
+numbers = [1, 2, 3, 4, 5]
+numbers.clear()
+print(numbers)
+```
+> **Terminal:** [ ]
 ## Operators
 ### in Operator
 Checks whether certain character(s) occur within a string and returns a boolean value.
@@ -232,6 +291,16 @@ course = "Python for Beginners"
 print("Python" in course)
 ```
 > **Terminal:** True
+
+Checks whether certain value(s) occur within a list and returns a boolean value.
+```py
+numbers = [1, 2, 3, 4, 5]
+print(1 in numbers)
+print(1 and 6 in numbers)
+```
+> **Terminal:**  
+True  
+False
 ### Arithmetic Operators
 #### Addition ( + )
 ```py
