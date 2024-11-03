@@ -504,6 +504,39 @@ PPPPPPP
 PPPPPPPP  
 PPPPPPPPP  
 PPPPPPPPPP  
+### For Loops
+Used to iterate over a sequence and access each item individually.
+```py
+numbers = [1, 2, 3, 4, 5]
+for item in numbers:
+    print(item)
+# item is the loop variable. In each iteration, it will hold one value.
+```
+> **Terminal:**  
+1  
+2  
+3  
+4  
+5
+
+The for loop prints each 'item' within the 'numbers' list on a seperate line.
+#### Exercise
+Achieve the same result as above but this time, use a while loop instead.
+#### Solution
+```py
+numbers = [1, 2, 3, 4, 5]
+
+i = 0  
+while i < len(numbers):
+    print(numbers[i]) # 'i' acts as the index
+    i += 1
+```
+> **Terminal:**  
+1  
+2  
+3  
+4  
+5
 
 
 
