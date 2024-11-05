@@ -159,6 +159,65 @@ numbers = [1, 2, 3, 4, 5]
 print(len(numbers))
 ```
 > **Terminal:** 5
+### Range
+Returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and **stops before a specified number**.
+```py
+numbers = range(5) # will return a range object
+print(numbers)
+```
+> **Terminal:** range(0, 5)
+
+range(0, 5) is the default representation of a range object and represents numbers 0 till 4. In order to see the actual numbers, we need to iterate over this range object using a for loop just like we iterate over a given list.
+```py
+numbers = range(5)
+for number in numbers:
+    print(number)
+```
+> **Terminal:**  
+0  
+1  
+2  
+3  
+4
+
+We can also define the starting point ourselves instead of the default value of 0.
+```py
+numbers = range(5, 10)
+# where:
+# 5 is the starting number
+# 10 is the ending number which is to be excluded
+for number in numbers:
+    print(number)
+```
+> **Terminal:**  
+5  
+6  
+7  
+8  
+9
+
+We can also define the incremental value ourselves instead of the default value of 1.
+```py
+numbers = range(5, 10, 2) # 2 is the incremental value
+for number in numbers:
+    print(number)
+```
+> **Terminal:**  
+5  
+7  
+9
+
+You don't need to store the range function in a separate variable. You can use it directly as part of a for loop.
+```py
+for number in range(5):
+    print(number)
+```
+> **Terminal:**  
+0  
+1  
+2  
+3  
+4
 ## Variables
 Variables are used to temporarily store data  in a computer's memory.
 ```py
