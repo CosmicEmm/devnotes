@@ -75,6 +75,16 @@ print(names[0:3])
 # 3 is the ending index which should be +1 to the index of the object you want to print
 ```
 > **Terminal:** ['John', 'Bob', 'Mosh']
+### Tuples
+- Like lists, they are used to store a sequence of objects.
+- They are **immutable**, meaning they cannot be changed after creation.
+- They are defined by ( )
+- Tuples don't support item assignment. Unlike a list, we can't replace an item in a tuple afterwards.
+```py
+numbers = (1, 2, 3)
+numbers [0] = 10
+```
+> **Terminal:** TypeError: 'tuple' object does not support item assignment
 ## Type Conversion
 Converts the value of a variable from one type to another.
 ```py
@@ -342,6 +352,27 @@ numbers.clear()
 print(numbers)
 ```
 > **Terminal:** [ ]
+### Tuple Methods
+Tuples have certain methods available:
+#### Count Method
+Returns the number of occurences of an element.
+```py
+numbers = (1, 3, 2, 3)
+print(numbers.count(3))
+```
+> **Terminal:** 2
+#### Index Method
+Returns the index of the first occurence of a given element.
+```py
+winners = ("Harry", "Ron", "Hermoine", "Luna", "Harry")
+print(winners.index("Luna"))
+print(winners.index("Harry"))
+```
+> **Terminal:**  
+3  
+0
+#### Magic Methods
+These methods start with an underscore.
 ## Operators
 ### in Operator
 Checks whether certain character(s) occur within a string and returns a boolean value.
