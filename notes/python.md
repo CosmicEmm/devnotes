@@ -13,8 +13,9 @@
 * Spotify
 * Dropbox
 * Pinterest
-## Terminal Window
-It displays the output of the Python program when we run it.
+## Terminal
+- It displays the output of the Python program when we run it.
+- Comments are prefixed with the # symbol. They don't get executed.
 ## Python Data Types (Basic/Primitive)
 ### String
 * It represents a sequence of characters or textual data.
@@ -26,8 +27,19 @@ print("Hello " + "Friend")
 ```
 > **Terminal:** Hello Friend
 ### Number
-* **Integer:** represents a whole number
-* **Float:** represents a decimal number
+1) **Integer:**  
+Represents a whole number.
+2) **Float:**  
+Represents a decimal number
+3) **Complex Number:**  
+    * It's created from two real numbers.
+    * It's written in the form of $x + yj$ where $x$ and $y$ are real numbers and $j$ is an imaginary number called **iota**. The value of iota is $\sqrt{-1}$
+    * It can be created directly (e.g. $1 + 3j$) or by using the complex function.
+    ```py
+    z = complex(1, 3)
+    print(z)
+    ```
+    > **Terminal:** (1+3j)
 ### Boolean
 * It can be True or False.
 ## Python Data Types (Complex)
