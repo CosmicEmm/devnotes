@@ -41,7 +41,14 @@ Represents a decimal number
     ```
     > **Terminal:** (1+3j)
 ### Boolean
-* It can be True or False.
+* It's binary in nature.
+* It can be either True or False.
+#### Boolean Expression
+An expression that produces a boolean value when evaluated.
+```py
+print(1 > 5)
+```
+> **Terminal:** False
 ## Python Data Types (Complex)
 Useful in building real applications.
 ### Lists
