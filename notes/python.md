@@ -20,6 +20,13 @@
 ### String
 * It represents a sequence of characters or textual data.
 * It is always enclosed in single quotes or double quotes.
+```py
+print("Hello World")
+print("1") # represents the character '1' and not the number '1'
+```
+> **Terminal:**  
+Hello World  
+1
 #### String Contatenation
 Combine one string with another string.
 ```py
@@ -52,14 +59,18 @@ print(1 > 5)
 ## Python Data Types (Complex)
 Useful in building real applications.
 ### Lists
-- Used to represent a list of objects.
+- Used to store a sequence of objects and is **mutable**.
 - Defined by square brackets [ ]
 - Individual objects within a list are separated by commas.
 ```py
 names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+values = [1, 2, 'a', 3]
 print(names)
+print(values)
 ```
-> **Terminal:** ['John', 'Bob', 'Mosh', 'Sam', 'Mary']
+> **Terminal:**  
+['John', 'Bob', 'Mosh', 'Sam', 'Mary']  
+[1, 2, 'a', 3]
 
 We can also retrieve individual objects from the list by calling their index within square brackets.
 ```py
@@ -98,12 +109,26 @@ print(names[0:3])
 - Like lists, they are used to store a sequence of objects.
 - They are **immutable**, meaning they cannot be changed after creation.
 - They are defined by ( )
+- Like lists, they are **ordered** which means you can refer to an item by its index.
 - Tuples don't support item assignment. Unlike a list, we can't replace an item in a tuple afterwards.
 ```py
 numbers = (1, 2, 3)
 numbers [0] = 10
 ```
 > **Terminal:** TypeError: 'tuple' object does not support item assignment
+### Sets
+- A set is a collection which is unordered, unchangeable and unindexed.
+- **Unordered:** The items in a set do not have a defined order. Set items can appear in a different order every time you use them.
+- **Unchangeable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
+- **Unindexed:** Set items cannot be referred to by index or key.
+- Sets are defined by curly brackets and **don't allow duplicates**.
+```py
+values = {1, 2, 2, 3, 4, 1, 'm', 5, 'a'}
+print(values)
+```
+> **Terminal:** {'a', 1, 2, 3, 4, 5, 'm'}
+
+As you can see, all the duplicates are removed and the set items appear out of order.
 ## Type Conversion
 Converts the value of a variable from one type to another.
 ```py
