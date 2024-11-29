@@ -117,9 +117,9 @@ numbers [0] = 10
 ```
 > **Terminal:** TypeError: 'tuple' object does not support item assignment
 ### Sets
-- A set is a collection which is unordered, unchangeable and unindexed.
+- A set is a collection which is unordered, immutable and unindexed.
 - **Unordered:** The items in a set do not have a defined order. Set items can appear in a different order every time you use them.
-- **Unchangeable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
+- **Immutable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
 - **Unindexed:** Set items cannot be referred to by index or key.
 - Sets are defined by curly brackets and **don't allow duplicates**.
 ```py
@@ -129,6 +129,37 @@ print(values)
 > **Terminal:** {'a', 1, 2, 3, 4, 5, 'm'}
 
 As you can see, all the duplicates are removed and the set items appear out of order.
+### Dictionaries
+- A dictionary is a collection of **key : value pairs**.
+- Dictionaries are ordered, it means that the items have a defined order, and that order will not change.
+- In a real dictionary, a specific word maps to its definition. So when you look up a word, you're actually looking for the definition. The word only acts as the key.
+- In Python, dictionary works the same way. Values are assigned keys and you look up the value by entering the key.
+- Dictionaries are defined by curly brackets.
+```py
+emm = {1:"a", 2: "b", 3: "c"}
+print(emm[1]) # 1 is the key
+```
+> **Terminal:** a
+
+Dictionaries are **mutable**, meaning that we can change, add or remove items after the dictionary has been created.
+```py
+emm = {1:"a", 2: "b", 3: "c"}
+emm[1] = "e"
+print(emm)
+```
+> **Terminal:** {1: 'e', 2: 'b', 3: 'c'}
+
+Dictionaries **don't allow duplicates**. There can't be two items with the same key. Duplicate values will overwrite existing values.
+```py
+car_specs = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(car_specs)
+```
+> **Terminal:** {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
 ## Type Conversion
 Converts the value of a variable from one type to another.
 ```py
