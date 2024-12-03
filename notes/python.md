@@ -27,12 +27,6 @@ print("1") # represents the character '1' and not the number '1'
 > **Terminal:**  
 Hello World  
 1
-#### String Contatenation
-Combine one string with another string.
-```py
-print("Hello " + "Friend")
-```
-> **Terminal:** Hello Friend
 ### Number
 1) **Integer:**  
 Represents a whole number.
@@ -472,6 +466,15 @@ False
 print(10 + 3)
 ```
 > **Terminal:** 13
+
+You can also concatenate strings and lists using the + operator.
+```py
+print("Hello " + "Friend")
+print([1, 2] + ['a', 'b'])
+```
+> **Terminal:**  
+Hello Friend  
+[1, 2, 'a', 'b']
 #### Subtraction ( - )
 #### Multiplication ( * )
 #### Division
