@@ -500,7 +500,15 @@ print([1, 2] + ['a', 'b'])
 Hello Friend  
 [1, 2, 'a', 'b']
 #### Subtraction ( - )
+```py
+print(10 - 3)
+```
+> **Terminal:** 7
 #### Multiplication ( * )
+```py
+print(10 * 3)
+```
+> **Terminal:** 30
 #### Division
 There are two types of division in Python.
 
