@@ -298,7 +298,9 @@ for number in range(5):
 3  
 4
 ## Variables
-Variables are used to temporarily store data  in a computer's memory.
+- Variables are used to temporarily store data  in a computer's memory.
+- They are declared using the assignment operator (=).
+- Variable names can only contain alphanumeric characters and underscores. That means no special characters are allowed.
 ```py
 age = 20
 print(age)
@@ -315,10 +317,26 @@ print(age)
 
 **Imp: Python code gets executed from top to bottom.**
 
+Variable names can only start with an alphabetical character or underscore.
+```py
+city = 'London'
+_year = '2024'
+print(city + _year)
+```
+> **Terminal:** London2024
+
 When using multiple words in the name of a variable, separate them with an underscore for better readibility.
 ```py
 unit_price = 19.95
 ```
+Variable names are case-sensitive.
+```py
+KAREN = 'Manager'
+karen = 'Employee'
+print(f'{karen} reports to {KAREN}.')
+```
+> **Terminal:** Employee reports to Manager.
+
 We can also assign a string value or a boolean to a variable.
 ```py
 first_name = "Levi"
