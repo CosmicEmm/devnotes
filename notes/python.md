@@ -443,21 +443,45 @@ print(winners.index("Harry"))
 #### Magic Methods
 These methods start with an underscore.
 ## Operators
-### in Operator
-Checks whether certain character(s) occur within a string and returns a boolean value.
+### Membership Operators
+#### in Operator
+Checks whether certain character(s) exist within a string and returns a boolean value.
 ```py
 course = "Python for Beginners"
 print("Python" in course)
 ```
 > **Terminal:** True
 
-Checks whether certain value(s) occur within a list and returns a boolean value.
+Checks whether certain item(s) exist within a list/tuple/set and returns a boolean value.
 ```py
 numbers = [1, 2, 3, 4, 5]
+letters = {'a', 's', 'd', 'f'}
 print(1 in numbers)
 print(1 and 6 in numbers)
+print('s' in letters)
 ```
 > **Terminal:**  
+True  
+False  
+True
+
+Checks whether certain keys exist within a dictionary.
+```py
+countries = {'GER':'Germany', 'FRA':'France', 'ENG':'England'}
+print('GER' in countries)
+```
+> **Terminal:** True
+#### not in Operator
+Checks if a value is **not present** in an iterable. It returns True if the value is not found, and False if the value is found.
+```py
+numbers = [1, 2, 3, 4, 5]
+countries = {'GER':'Germany', 'FRA':'France', 'ENG':'England'}
+print(2 not in numbers)
+print(6 not in numbers)
+print('ENG' not in countries)
+```
+> **Terminal:**  
+False  
 True  
 False
 ### Arithmetic Operators
@@ -500,6 +524,13 @@ print(10 % 3)
 print(10 ** 3) #represents 10 raised to the power 3
 ```
 > **Terminal:** 1000
+### Assignment Operator (=)
+Assigns a value to a variable.
+```py
+x = 3
+print(x)
+```
+> **Terminal:** 3
 ### Augmented Assignment Operator
 An operator in which the assignment operator ( = ) is augmented/enhanced.
 #### Example
@@ -538,7 +569,7 @@ They are used to compare values.
 x = 3 > 2
 print(x)
 ```
-> **Terminal:** True (3 > 2 is a boolean expression bcz it produces a boolean value)
+> **Terminal:** True (3 > 2 is a boolean expression that produces a boolean value)
 #### Types of Comparison Operators
 * Greater than (>)
 * Less than (<)
@@ -552,7 +583,7 @@ print(x)
 ```
 > **Terminal:** False
 
-Don't confuse Equality Operator (==) with Assignment Operator (=).
+**Don't confuse Equality Operator (==) with Assignment Operator (=).**
 ```py
 x = 3 != 2
 print(x)
