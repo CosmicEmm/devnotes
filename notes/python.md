@@ -472,7 +472,7 @@ print('GER' in countries)
 ```
 > **Terminal:** True
 #### not in Operator
-Checks if a value is **not present** in an iterable. It returns True if the value is not found, and False if the value is found.
+Checks if a value is **not present** in an iterable, returning True if the value is not found and False if the value is found.
 ```py
 numbers = [1, 2, 3, 4, 5]
 countries = {'GER':'Germany', 'FRA':'France', 'ENG':'England'}
