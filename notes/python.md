@@ -304,9 +304,11 @@ for number in range(5):
 If `x = 5` and `y = x` then both variables (**x** and **y**) point to the value 5.
 
 ![alt text](<Screenshot 2024-12-06 120746.png>)
+
 If we change `x = "cake"` then only **y** keeps pointing to the value 5.
 
 ![alt text](<Screenshot 2024-12-06 120803.png>)
+
 Variable names can only contain alphanumeric characters and underscores. That means no special characters are allowed.
 ```py
 age = 20
