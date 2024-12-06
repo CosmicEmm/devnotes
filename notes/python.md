@@ -298,9 +298,16 @@ for number in range(5):
 3  
 4
 ## Variables
-- Variables are used to temporarily store data  in a computer's memory.
+- Variables are used to temporarily store data in a computer's memory.
 - They are declared using the assignment operator (=).
-- Variable names can only contain alphanumeric characters and underscores. That means no special characters are allowed.
+
+If `x = 5` and `y = x` then both variables (**x** and **y**) point to the value 5.
+
+![alt text](<Screenshot 2024-12-06 120746.png>)
+If we change `x = "cake"` then only **y** keeps pointing to the value 5.
+
+![alt text](<Screenshot 2024-12-06 120803.png>)
+Variable names can only contain alphanumeric characters and underscores. That means no special characters are allowed.
 ```py
 age = 20
 print(age)
