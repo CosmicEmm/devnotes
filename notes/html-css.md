@@ -1,4 +1,5 @@
-## Install
+## HTML and CSS
+Prerequisites:
 - **Web Browser** - most popular for web development is Google Chrome
 - **Code Editor** - most popular for web development is VS Code
 ## HTML
