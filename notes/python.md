@@ -113,7 +113,7 @@ numbers [0] = 10
 ### Sets
 - A set is a collection which is unordered, immutable and unindexed.
 - **Unordered:** The items in a set do not have a defined order. Set items can appear in a different order every time you use them.
-- **Immutable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
+- **Unchangeable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
 - **Unindexed:** Set items cannot be referred to by index or key.
 - Sets are defined by curly brackets and **don't allow duplicates**.
 ```py
