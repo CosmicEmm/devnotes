@@ -583,6 +583,20 @@ x += 3 #achieves the same effect as the expression above
 ```
 * += is the Augmented Assignment Operator in which the assignment operator ( = ) is augmented by +
 * We can also augment = with other symbols as per our needs.
+
+**Augmented assignment operators can also be used with strings.**
+```py
+message = 'Hello'
+letter = 'O'
+
+message += ' World!'
+letter *= 10
+print(message)
+print(letter)
+```
+> **Terminal:**  
+Hello World!  
+OOOOOOOOOO
 ### Operator Precedence
 * Determines the order in which arithmetic operators are applied.
 * Python, like maths, follows the rule of DMAS.
