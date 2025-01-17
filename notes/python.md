@@ -111,7 +111,7 @@ numbers [0] = 10
 ```
 > **Terminal:** TypeError: 'tuple' object does not support item assignment
 ### Sets
-- A set is a collection which is unordered, immutable and unindexed.
+- A set is a collection which is unordered, mutable and unindexed.
 - **Unordered:** The items in a set do not have a defined order. Set items can appear in a different order every time you use them.
 - **Mutable:** Unlike lists and dictionaries that allow you to use indices and keys to change individual data items in an existing object, sets only allow mutations such as adding or removing items through specific methods.
 - **Unindexed:** Since sets don’t keep their data in any specific order, you can’t use indices to access or modify individual items.
