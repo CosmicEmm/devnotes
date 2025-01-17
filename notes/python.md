@@ -113,9 +113,10 @@ numbers [0] = 10
 ### Sets
 - A set is a collection which is unordered, immutable and unindexed.
 - **Unordered:** The items in a set do not have a defined order. Set items can appear in a different order every time you use them.
-- **Unchangeable:** Once a set is created, you cannot change its items, but you can remove items and add new items.
-- **Unindexed:** Set items cannot be referred to by index or key.
-- Sets are defined by curly brackets and **don't allow duplicates**.
+- **Mutable:** Unlike lists and dictionaries that allow you to use indices and keys to change individual data items in an existing object, sets only allow mutations such as adding or removing items through specific methods.
+- **Unindexed:** Since sets don’t keep their data in any specific order, you can’t use indices to access or modify individual items.
+- **No Duplicates:**  A set works as a **special dictionary** that contains only keys instead of key-value pairs. Because of this characteristic, the items in a set must be **hashable** and unique.
+- Sets are defined by curly brackets.
 ```py
 values = {1, 2, 2, 3, 4, 1, 'm', 5, 'a'}
 print(values)
@@ -123,6 +124,13 @@ print(values)
 > **Terminal:** {'a', 1, 2, 3, 4, 5, 'm'}
 
 As you can see, all the duplicates are removed and the set items appear out of order.
+#### Frozen Sets
+The built-in `frozenset` data type provides an **immutable version** of regular sets. Frozen sets don’t support methods like .add(), .remove(), and .pop(). In consequence, you can’t modify the value of a frozen set once you’ve created it.
+```py
+fruits = frozenset({"apple", "orange", "banana"})
+```
+- The items in a frozen set must be hashable.
+- Frozen sets are hashable too, so you can use them as dictionary keys.
 ### Dictionaries
 - A dictionary is a collection of **key : value pairs**.
 - Dictionaries are ordered, it means that the items have a defined order, and that order will not change.
@@ -154,6 +162,15 @@ car_specs = {
 print(car_specs)
 ```
 > **Terminal:** {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+## Mutable and Immutable Objects
+**Mutable Object**
+- An object that allows you to change its values without changing its identity is a mutable object. The changes that you can perform on a mutable object’s value are known as mutations.
+- Mutable objects in Python: Lists, Dictionaries, Sets, Classes
+
+**Immutable Object**
+- An object that doesn’t allow changes in its value is an immutable object. You have no way to perform mutations on this kind of object. 
+- Immutable objects in Python: Strings, Numbers, Booleans, Tuples, Frozen Sets
+
 ## Type Conversion
 Converts the value of a variable from one type to another.
 ```py
