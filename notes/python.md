@@ -17,7 +17,7 @@
 - It displays the output of the Python program when we run it.
 - Comments are prefixed with the # symbol. They don't get executed.
 ## How Python Code gets executed?
-It gets executed line by line from the top.
+It gets executed line by line from top to bottom.
 ```py
 print('O----')
 print(' ||||')
