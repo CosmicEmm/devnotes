@@ -16,6 +16,14 @@
 ## Terminal
 - It displays the output of the Python program when we run it.
 - Comments are prefixed with the # symbol. They don't get executed.
+## How Python Code gets executed?
+It gets executed line by line from the top.
+```py
+print('O----')
+print('||||')
+```
+>**Terminal:**  
+
 ## Python Data Types (Basic/Primitive)
 ### String
 * It represents a sequence of characters or textual data.
