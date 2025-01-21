@@ -20,10 +20,11 @@
 It gets executed line by line from the top.
 ```py
 print('O----')
-print('||||')
-```
->**Terminal:**  
+print(' ||||')
 
+# Output: O----
+#          ||||
+```
 ## Python Data Types (Basic/Primitive)
 ### String
 * It represents a sequence of characters or textual data.
